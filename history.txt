@@ -1,0 +1,32 @@
+ 1001  source /Users/worajedt/PycharmProjects/flask-stock-portfolio-code/.venv/bin/activate
+ 1002  git init .
+ 1003  git status
+ 1004  git add *
+ 1005  git add .
+ 1006  ls
+ 1007  git status
+ 1008  pip install Flask
+ 1009  pip freeze > requirements.txt
+ 1010  flask run app:app --debug
+ 1011  flask run --debug --app app
+ 1012  flask --debug --app app run
+ 1013  hist
+ 1014  history
+ 1015  history > history.txt
+ 1016  flask --debug --app app run
+ 1002  git init .
+ 1003  git status
+ 1004  git add *
+ 1005  git add .
+ 1006  ls
+ 1007  git status
+ 1008  pip install Flask
+ 1009  pip freeze > requirements.txt
+ 1010  flask run app:app --debug
+ 1011  flask run --debug --app app
+ 1012  flask --debug --app app run
+ 1013  hist
+ 1014  history
+ 1015  history > history.txt
+ 1016  flask --debug --app app run
+ 1017  history > history.txt
