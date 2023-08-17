@@ -17,7 +17,10 @@ def index():
 @app.route("/about/", methods=["GET"])
 def about():
     # return "<h2>About this Flask application</h2>"
-    return render_template("about.html", app="Flask Application", version="2.3.2")
+    return render_template("about.html",
+                           company_name="Flask Skoode Inc.",
+                           app="Flask Application",
+                           version="2.3.2")
 
 
 """

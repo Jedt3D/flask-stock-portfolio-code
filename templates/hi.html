@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hi</title>
-</head>
-
-<body>
+{% extends "base.html" %}
+{% block content %}
   {% if name %}
   <h1>Hi, {{name}}</h1>
   {% else %}
   <h1>Hi, stranger</h1>
   {% endif %}
   <p>Welcome abroad.</p>
-</body>
-
-</html>
+{% endblock %}
